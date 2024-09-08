@@ -11,7 +11,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "run": "node server",
-    "dev": "node --watch server"
+    "dev": "node --watch --env-file=.env server server"
   },
   "author": "",
   "license": "ISC",
